@@ -7,7 +7,7 @@ class AudioManager
 {
 	public:
 		AudioManager();
-		~AudioManager();
+		~AudioManager() = default;
 		MIX_Audio *loadAudio(const std::string &path, const std::string &name);
 		void playAudio(const std::string &name, int audioStartTime = 0,
 							int audioEndTime = -1);

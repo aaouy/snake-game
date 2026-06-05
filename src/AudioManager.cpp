@@ -9,11 +9,6 @@ AudioManager::AudioManager()
     m_track = MIX_CreateTrack(m_mixer);
 }
 
-AudioManager::~AudioManager()
-{
-  MIX_Quit();
-}
-
 MIX_Audio* AudioManager::loadAudio(const std::string &path, const std::string &name)
 {
   MIX_Audio *audio{MIX_LoadAudio(m_mixer, path.c_str(), true)};
