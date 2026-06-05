@@ -1,0 +1,39 @@
+# Build directories
+build/
+out/
+cmake-build-*/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# Compiled output
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Ninja
+.ninja_deps
+.ninja_log
+
+# IDE specific
+.vscode/
+.idea/
+*.xcodeproj/
+*.xcworkspace/
+
+# macOS
+.DS_Store
+
+# Clang
+.clangd/
+.clang-tidy
